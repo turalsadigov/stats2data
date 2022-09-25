@@ -2,7 +2,10 @@ Package: stats2data
 Title: Data Package for MATH 254, Statistical Modeling and Applications, at Hamilton College
 Version: 0.0.0.9000
 Authors@R: 
-    person("Tural", "Sadigov", "turalsadikov@gmail.com", role = c("aut", "cre"),
+    person(given = "Tural",
+           family = "Sadigov",
+           role = c("aut", "cre"),
+           email = "turalsadikov@gmail.com",
            comment = c(ORCID = "https://orcid.org/0000-0002-6446-415X"))
 Description: Package provides all data sets that are used in MATH 254 throughout a semester.
 License: MIT + file LICENSE
@@ -12,3 +15,5 @@ RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    tibble
