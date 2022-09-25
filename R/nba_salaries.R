@@ -7,4 +7,4 @@
 #' \describe{
 #' }
 #' @source Unknown
-"county"
+"nba_salaries"
