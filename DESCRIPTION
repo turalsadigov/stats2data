@@ -1,12 +1,11 @@
 Package: stats2data
-Title: What the Package Does (One Line, Title Case)
+Title: Data Package for MATH 254, Statistical Modeling and Applications, at Hamilton College
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Tural", "Sadigov", "turalsadikov@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-6446-415X"))
+Description: Package provides all data sets that are used in MATH 254 throughout a semester.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
