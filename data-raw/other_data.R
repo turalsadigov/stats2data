@@ -27,3 +27,6 @@ usethis::use_data(smoking, overwrite = TRUE)
 
 nba_salaries <- read_csv('https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/nba_salaries.csv')
 usethis::use_data(nba_salaries, overwrite = TRUE)
+
+trees <- read_csv('https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/trees.csv')
+usethis::use_data(trees, overwrite = TRUE)
