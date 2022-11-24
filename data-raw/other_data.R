@@ -30,3 +30,6 @@ usethis::use_data(nba_salaries, overwrite = TRUE)
 
 trees <- read_csv('https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/trees.csv')
 usethis::use_data(trees, overwrite = TRUE)
+
+bike_hours <- read_csv('https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/Bike-Sharing-Dataset/hour.csv')
+usethis::use_data(bike_hours, overwrite = TRUE)
