@@ -1,0 +1,79 @@
+---
+title: "MATH 254 - Statistical Modeling and Applications - HW #Insert Number"
+author: Your Name
+format: 
+    html:
+      theme: 
+        light: united
+        dark: darkly
+editor: visual
+chunk_output_type: console
+fig-align: center
+always_allow_html: true
+toc: true
+toc-location: right
+number-sections: true
+page-layout: article
+code-overflow: scroll
+code-line-numbers: false
+code-copy: true
+execute:
+  echo: true
+  warning: false
+  eval: true
+  output: true
+  error: false
+  freeze: true
+  out.width: "100%"
+  cache: true
+title-block-banner: true
+---
+
+## Libraries
+
+```{r}
+library(tidyverse)
+library(tidymodels)
+library(infer)
+library(stats2data)
+```
+
+
+
+## Problems 
+
+1. Problem 1
+
+```{r}
+# code below
+
+```
+
+2. Problem 2
+
+```{r}
+# code below
+
+```
+
+3. Problem 3
+
+```{r}
+# code below
+
+```
+
+4. Problem 4
+
+```{r}
+# code below
+
+```
+
+5. Problem 5
+
+```{r}
+# code below
+
+```
+
