@@ -1,0 +1,193 @@
+---
+title: "Replace With Your Project Title"
+
+author:
+  - name: Carl Friedrich Gauss
+    email: carl@gauss.com
+    affiliations:
+      - name: Gaussian Distribution Institute
+        address: Göttingen, Germany
+  - name: Andrey Nikolaevich  Kolmogorov
+    email: andrey@kolmogorov.com
+    affiliations:
+      - name: Probability University
+        address: Moscow, Russia
+  - name: Tural Sadigov
+    email: tsadigov@hamilton.edu
+    affiliations:
+      - name: Hamilton College
+        orcid: 0000-0002-6446-415X
+        address: 198 College Hill Rd
+        city: Clinton
+        state: NY
+        country: USA
+        postal-code: 13323-1218
+        
+abstract: The abstract provides a brief summary of the entire paper (background, methods,
+  results and conclusions). The suggested length is no more than 150 words. This allows
+  you approximately 1 sentence (and likely no more than two sentences) summarizing
+  each of the following sections. Typically, abstracts are the last thing you write.
+  Assessment; Are the main points of the paper described clearly and succinctly?
+
+format: 
+    html:
+      theme: 
+        dark: darkly
+        light: united
+title-block-banner: darkblue
+date: October 17, 2022
+highlight-style: pygments
+chunk_output_type: console
+fig-align: center
+always_allow_html: true
+toc: true
+toc-location: right
+number-sections: true
+page-layout: article
+code-overflow: scroll
+code-line-numbers: false
+code-copy: true
+execute:
+  echo: fenced
+  warning: false
+  eval: true
+  output: true
+  error: false
+  freeze: true
+  out.width: "100%"
+  cache: true
+code-fold: show
+bibliography: references.bib
+csl: the-annals-of-statistics.csl
+---
+
+# Background and Significance
+
+This is a template for Project Report in MATH 254 at Hamilton College. It is created using the template from [USPROC - Report Template](https://www.causeweb.org/usproc/report-template) (see @usclap). Here are the link to some winners of the competition:
+
+-   Spring 2021 - 1st place - Intermediate Statistics: [Opioid Relapse Prevention: A Survival Analysis Comparing Two Treatments Adjusting for Covariates](https://www.causeweb.org/usproc/sites/default/files/usclap/2021-1/Opioid%20Relapse%20Prevention.pdf)
+
+-   Spring 2021 - 2nd place - Intermediate Statistics: [A Regularized Cox Regression Approach to the Health Evaluation and Linkage to Primary Care (HELP) Clinical Trial](https://www.causeweb.org/usproc/sites/default/files/usclap/2021-1/A%20Regularized%20Cox%20Regression%20Approach%20to%20the%20Health%20Evaluation%20and%20Linkage%20to%20Primary%20Care%20%28HELP%29%20Clinical%20Trial.pdf)
+
+-   Spring 2021 - 3rd place - Intermediate Statistics: [Predicting Depression in the United States: Are Sexual Orientation, Race, and Income Related to Taking Depression Medication? Smith](https://www.causeweb.org/usproc/sites/default/files/usclap/2021-1/Predicting%20Depression%20in%20the%20United%20States.pdf)
+
+In this section you are providing the background of the research area and arguing why it is interesting and significant. This section relies heavily on literature review (prior research done in this area and facts that argue why the research is important). This whole section should provide the necessary background leading up to a presentation (in the last few sentences of this section) of the research hypotheses that you will be testing in your study.  Well-accepted facts and/or referenced statements should serve as the majority of content of this section. Typically, the background and significance section starts very broad and moves towards the specific area/hypotheses you are testing.
+
+*Assessment:*
+
+-   *Does the background and significance have a logical organization? Does it move from the general to the specific?*
+
+-   *Has sufficient background been provided to understand the paper? How does this work relate to other work in the scientific literature?*
+
+-   *Has a reasonable explanation been given for why the research was done? Why is the work important? Why is it relevant?*
+
+-   *Does this section end with statements about the hypothesis/goals of the paper?*
+
+# Methods
+
+a. *Data collection*. Explain how the data was collected/experiment was conducted. Additionally, you should provide information on the individuals who participated to assess representativeness. Non-response rates and other relevant data collection details should be mentioned here if they are an issue. However, you should not discuss the impact of these issues here---save that for the limitations section.
+
+b. *Variable creation*. Detail the variables in your analysis and how they are defined (if necessary). For example, if you created a combined (frequency times quantity) drinking variable you should describe how. If you are talking about gender no further explanation is really needed.
+
+c. *Analytic Methods*. Explain the statistical procedures that will be used to analyze your data. E.g. Boxplots are used to illustrate differences in GPA across gender and class standing. Correlations are used to assess the impacts of gender and class standing on GPA.
+
+*Assessment:*
+
+-   *Could the study be repeated based on the information given here? Is the material organized into logical categories (like the one's above)?*
+
+# Results
+
+Typically, results sections start with descriptive statistics, e.g. what percent of the sample is male/female, what is the mean GPA overall, in the different groups, etc. Figures can be nice to illustrate these differences! However, information presented must be relevant in helping to answer the research question(s) of interest. Typically, inferential (i.e. hypothesis tests) statistics come next. Tables can often be helpful for results from multiple regression. Do not give computer output here! This should look like a peer-reviewed journal article results section. Tables and figures should be labeled, embedded in the text, and referenced appropriately. The results section typically makes for fairly dry reading. It does not explain the impact of findings, it merely highlights and reports statistical information.
+
+An example R chunk will show like below. Here we use R packages such as tidyverse (see @tidyverse).
+
+```{r}
+library(tidyverse)
+print("Data Science is cool! ")
+```
+
+*Assessment:*
+
+-   *Is the content appropriate for a results section? Is there a clear description of the results?*
+
+-   *Are the results/data analyzed well? Given the data in each figure/table is the interpretation accurate and logical? Is the analysis of the data thorough (anything ignored?)*
+
+-   *Are the figures/tables appropriate for the data being discussed? Are the figure legends and titles clear and concise?*
+
+# Discussion/Conclusions
+
+Restate your objective and draw connections between your analyses and objective. In other words, how did (or didn't) you answer/address your objective. Place these all in the larger scope of previous research on your topic (i.e. what you found from the literature review), that is, how do your findings help the field move forward? Talk about the limitations of your findings and possible areas for future research to better investigate your research question. End with a concluding sentence or two that summarizes your key findings and impact on the field.
+
+*Assessment:*
+
+-   *Does the author clearly state whether the results answer the question (support or disprove the hypothesis)?*
+
+-   *Were specific data cited from the results to support each interpretation? Does the author clearly articulate the basis for supporting or rejecting each hypothesis?*
+
+-   *Does the author adequately relate the results of the current work to previous research?*
+
+
+# Appendix
+
+An appendix contains supplementary material that is not an essential part of the text itself but which may be helpful in providing a more comprehensive understanding of the research problem and/or is information which is too cumbersome to be included in the body of the paper. A separate appendix should be used for each distinct topic or set of data and always have a title descriptive of its contents.
+
+# [Not a section in your project report]
+
+**Some general criteria that the your professor may use include:**
+
+1.  Description of the data source
+
+2.  Accuracy of data analysis
+
+3.  Accuracy of conclusions and discussion
+
+4.  Overall clarity and presentation
+
+5.  Originality and significance of the study 
+
+6.  Writing quality and organization of the paper
+
+7.  Reproducibility of the whole project
+
+# [Not a section in your project report]
+
+Data sources
+
+1.  <https://registry.opendata.aws/>
+
+2.  <https://datasetsearch.research.google.com/>
+
+3.  <https://msropendata.com/>
+
+4.  <https://elitedatascience.com/datasets#exploratory-analysis>
+
+5.  <https://github.com/awesomedata/awesome-public-datasets>
+
+6.  <https://github.com/fivethirtyeight/data>
+
+7.  <https://github.com/BuzzFeedNews>
+
+8.  <https://github.com/rfordatascience/tidytuesday>
+
+9.  <https://www.earthdata.nasa.gov/>
+
+10. <https://pds.nasa.gov/datasearch/data-search/>
+
+11. <https://data.gov/>
+
+12. <https://data.nasdaq.com/search>
+
+13. <https://data.worldbank.org/>
+
+14. <https://guides.library.cmu.edu/machine-learning/datasets>
+
+15. <https://www.icpsr.umich.edu/web/pages/ICPSR/index.html>
+
+# References
+
+Note that, in addition to the paper citations, you should also cite any software/package that you use. That includes, R, RStudio, Quarto, `tidyverse` etc.
+
+
+*Assessment:*
+
+-   *Are the references appropriate and of adequate quality? Are the references cited properly (both in the text and at the end of the paper)?*
