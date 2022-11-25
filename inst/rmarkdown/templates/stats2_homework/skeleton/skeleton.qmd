@@ -1,6 +1,7 @@
 ---
 title: "MATH 254 - Statistical Modeling and Applications - HW #Insert Number"
 author: Your Name
+date: today
 format: 
     html:
       theme: 

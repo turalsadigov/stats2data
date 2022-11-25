@@ -1,11 +1,12 @@
 ---
 title: "MATH 254 - Statistical Modeling and Applications - HW #Insert Number"
 author: Your Name
+date: today
 format: 
     html:
       theme: 
-        light: united
         dark: darkly
+        light: united
 editor: visual
 chunk_output_type: console
 fig-align: center
@@ -15,6 +16,7 @@ toc-location: right
 number-sections: true
 page-layout: article
 code-overflow: scroll
+code-fold: show
 code-line-numbers: false
 code-copy: true
 execute:
