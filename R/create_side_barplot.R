@@ -10,7 +10,6 @@
 
 
 create_side_barplot <- function(df, cat_var){
-  enquo = aes = n = NULL
   df %>% 
     dplyr::count(!!enquo(cat_var), sort = TRUE) %>% 
     ggplot2::ggplot(aes(forcats::fct_reorder(!!enquo(cat_var), n), n)) +
