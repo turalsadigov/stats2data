@@ -2,7 +2,7 @@
 % Please edit documentation in R/create_side_barplot.R
 \name{create_side_barplot}
 \alias{create_side_barplot}
-\title{Creates a 'sorted' and flipped barplot for a categorical variable in dataframe.}
+\title{Create a barplot}
 \usage{
 create_side_barplot(df, cat_var)
 }
@@ -15,5 +15,9 @@ create_side_barplot(df, cat_var)
 side, sorted, barplot
 }
 \description{
-Creates a 'sorted' and flipped barplot for a categorical variable in dataframe.
+This function creates a 'sorted' and flipped barplot
+for a categorical variable in dataframe. It assumes that
+the first argument is a tibble and the second argument
+is a categorical variable (specifically a factor type)
+from that tibble
 }
