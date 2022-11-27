@@ -2,5 +2,6 @@
 
 export("%>%")
 export(create_side_barplot)
+export(ml_steps)
 importFrom(magrittr,"%>%")
 importFrom(tibble,tibble)
