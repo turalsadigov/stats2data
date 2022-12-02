@@ -7,7 +7,8 @@ Authors@R:
            role = c("aut", "cre"),
            email = "turalsadikov@gmail.com",
            comment = c(ORCID = "https://orcid.org/0000-0002-6446-415X"))
-Description: Package provides all data sets that are used in MATH 254 throughout a semester.
+Description: Package provides all data sets that are used in MATH 254 throughout a semester. In addition to data sets, it provides R Markdown templates for homework and final project.
+URL: https://github.com/turalsadigov/stats2data
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

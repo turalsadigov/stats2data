@@ -6,7 +6,16 @@
 \alias{stats2data-package}
 \title{stats2data: Data Package for MATH 254, Statistical Modeling and Applications, at Hamilton College}
 \description{
-Package provides all data sets that are used in MATH 254 throughout a semester.
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+Package provides all data sets that are used in MATH 254 throughout a semester. In addition to data sets, it provides R Markdown templates for homework and final project.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/turalsadigov/stats2data}
+}
+
 }
 \author{
 \strong{Maintainer}: Tural Sadigov \email{turalsadikov@gmail.com} (\href{https://orcid.org/0000-0002-6446-415X}{ORCID})
