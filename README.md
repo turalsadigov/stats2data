@@ -1,4 +1,4 @@
-![](stats2data.png)
+![](stats2data.png){width="338"}
 
 `stats2data` is a data package for MATH 254, Statistical Modeling and Applications, at Hamilton College. Package also includes Quarto templates for weekly homework assignments and the final project. Quarto files will open as R Markdown file (rmd) but will render as qmd files.
 
