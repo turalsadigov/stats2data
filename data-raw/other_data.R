@@ -37,3 +37,13 @@ usethis::use_data(bike_hours, overwrite = TRUE)
 
 mnist_sample <- read_csv('https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/mnist_sample.csv')
 usethis::use_data(mnist_sample, overwrite = TRUE)
+
+
+county <- read_csv("https://raw.githubusercontent.com/turalsadigov/MATH_254/main/data/county.csv")
+df1_county <- county %>% 
+  select(- metro)
+df2_county <- county %>% 
+  select(name, state, metro) %>% 
+  drop_na()
+usethis::use_data(df1_county, overwrite = TRUE)
+usethis::use_data(df2_county, overwrite = TRUE)

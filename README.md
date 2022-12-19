@@ -1,5 +1,3 @@
-![](stats2data.png)
-
 # stats2data
 
 <img src="man/figures/logo.png" align="right" height="139"/>
